@@ -1,0 +1,9 @@
+.header__links {
+  display: grid;
+  align-items: center;
+  column-gap: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  grid-auto-flow: column;
+}

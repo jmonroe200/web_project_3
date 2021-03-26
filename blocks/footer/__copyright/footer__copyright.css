@@ -1,0 +1,16 @@
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    padding: 12px 0 0 0;
+  }
+}
