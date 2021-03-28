@@ -1,8 +1,14 @@
 @import url(./__content/page__content.css);
 
+@import url('https://rsms.me/inter/inter.css');
+  html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+  }
+
 .page {
   background: #2a2c2f;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   margin: 34px 0 24px 0;
 }
 
