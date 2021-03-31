@@ -1,20 +1,26 @@
 # Project 3: From Portland to Portland
 
 ### Overview
-* Intro
+* About
 * Figma
+* Media
 * Images
 
-**Intro**
+**About**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about user experience and responsive screen size. I also use Figma for the first time, using the designers requests to build this site.
 
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
+**Media**
+
+After designing, I used the following URL and the Responsively app to test the responsiveness across multiple viewports at once. Although not a perfect solution, it quickly showed me any major broad-brushtroke issues.
+
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+Exported images directly from Figma. Optimized images [here](https://tinypng.com/), for faster load time. 
 
-Good luck and have fun!
+
+
