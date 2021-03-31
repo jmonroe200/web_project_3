@@ -1,4 +1,6 @@
+/* font stylesheet */
 @import url("../vendor/fonts/fonts.css");
+
 @import url("../vendor/normalize.css");
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/footer/footer.css");
@@ -11,4 +13,3 @@
 @import url("../blocks/places/places.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/logo/logo.css");
-@import url("../blocks/span-break/span-break.css");

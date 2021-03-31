@@ -27,7 +27,7 @@
 
     <main>
       <!-- lead section -->
-      <section class="lead section section_narrow">
+      <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">
           An epic bicycle journey from Portland, ME. to Portland, OR
@@ -37,7 +37,7 @@
       </section>
 
       <!-- intro section -->
-      <section class="intro section section_narrow">
+      <section class="intro">
         <div class="intro__container">
           <h2 class="intro__title">
             Know the country you live in a little better
@@ -59,17 +59,17 @@
           </p>
 
           <ul class="intro__list">
-            <li class="">
+            <li>
               Distance (miles) <span class="intro__list-number">3,644</span>
             </li>
-            <li class="">
+            <li>
               Travel time (days) <span class="intro__list-number">22</span>
             </li>
-            <li class="">
+            <li>
               Highest point (feet)
               <span class="intro__list-number">9,613</span>
             </li>
-            <li class="">
+            <li>
               Lowest point (feet) <span class="intro__list-number">-3</span>
             </li>
           </ul>
@@ -119,12 +119,13 @@
       </section>
 
       <!-- places section -->
-      <section class="places section section_narrow">
-        <div class="place">
+      <section class="places">
+        <article class="place">
           <h2 class="place__title">Maine</h2>
           <div class="place__link-container">
             <p class="place__url-heading">URL</p>
-            <a href="https://global.llbean.com" target="_blank" class="place__link">global.llbean.com</a>
+            <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1"
+              target="_blank" class="place__link">global.llbean.com</a>
           </div>
           <img src="./images/place-maine.jpg" class="place__image" alt="maine lighthouse" />
           <div class="place__information">
@@ -135,7 +136,7 @@
               be sure not to miss. As your journey is going to be a long one,
               you had best be prepared for an arduous trek.
             </p>
-            <p class="place__text place__text_small">
+            <p class="place__text">
               Thankfully, not only is Maine home to the very first European
               settlers on US territory in the era of Vikings, but is also home
               to L.L. Bean, which is a great company to grab a super sturdy
@@ -143,7 +144,7 @@
             </p>
             <p class="place__text">Average cost: $80-100.</p>
           </div>
-        </div>
+        </article>
 
         <div class="place">
           <h2 class="place__title">New Hampshire</h2>
@@ -271,17 +272,19 @@
 
       <!-- footer section -->
       <footer class="footer">
-        <ul class="footer__links">
-          <li>
-            <a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a>
-          </li>
-          <li>
-            <a href="https://yandex.com/weather/moscow" target="_blank" class="footer__link">Weather</a>
-          </li>
-          <li>
-            <a href="https://www.any.do/" target="_blank" class="footer__link">Calendar</a>
-          </li>
-        </ul>
+        <nav>
+          <ul class="footer__links">
+            <li>
+              <a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a>
+            </li>
+            <li>
+              <a href="https://yandex.com/weather/moscow" target="_blank" class="footer__link">Weather</a>
+            </li>
+            <li>
+              <a href="https://www.any.do/" target="_blank" class="footer__link">Calendar</a>
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyright">&#169; 2021. James Monroe Design LLC</p>
       </footer>
     </main>

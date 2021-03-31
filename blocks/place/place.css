@@ -2,15 +2,16 @@
 @import url(./__link-container/place__link-container.css);
 @import url(./__link/place__link.css);
 @import url(./__text/place__text.css);
-@import url(./__text/_small/place__text_small.css);
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 
 .place {
   display: grid;
-  grid-template-columns: minmax(10px, 460px) 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   gap: 48px 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
 }
 
 .place:not(:last-child) {

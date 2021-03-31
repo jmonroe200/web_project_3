@@ -1,30 +1,34 @@
 .cover__item {
-  min-height: 740px;
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  position: relative;
-  z-index: 0;
+  color: #FFFFFF;
+  height: 0;
+  padding-top: calc(640 / 1024 * 50%);
+  padding-bottom: calc(640 / 1024 * 50%);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../images/cover-route-66.jpg");
 }
 
-.cover__item::before {
+.cover__item::after {
   content: "";
-  height: 100%;
   width: 100%;
-  background-image: url(../../../images/cover-route-66.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 100%;
+  background-color: #2A2C2F;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
-  transition-duration: .5s;
+  opacity: .3;
+  transition: all .2s ease-in-out;
 }
 
-.cover__item:hover:before {
+.cover:hover .cover__item::after {
   opacity: .8;
 }
 
