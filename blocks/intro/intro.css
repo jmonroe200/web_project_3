@@ -14,19 +14,22 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1279px) {
   .intro {
-    padding: 0 48px;
+    padding-left: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1023px) {
   .intro {
     padding: 0 24px 88px;
+    margin: 0 auto 0;
+    min-width: 100%;
+    box-sizing: border-box;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 675px) {
   .intro {
     padding: 0 16px 64px;
   }

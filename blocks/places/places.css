@@ -5,19 +5,20 @@
   padding: 0 148px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1279px) {
   .places {
-    padding: 0 48px;
+    padding: 0 48px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1023px) {
   .places {
-    padding: 0 24px;
+    padding: 0 24px 0;
+
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 675px) {
   .places {
     padding: 0;
   }
