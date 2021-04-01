@@ -10,6 +10,8 @@
 
 This is a project about user experience and responsive screen size. I also use Figma for the first time, using the designers requests to build this site.
 
+This site can be viewed at: https://jmonroe200.github.io/web_project_3/
+
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
