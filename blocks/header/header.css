@@ -1,5 +1,7 @@
 @import url(./__lang-link/header__lang-link.css);
+
 @import url(./__lang-link/_active/header__lang-link_active.css);
+
 @import url(./__links/header__links.css);
 
 .header {
@@ -12,18 +14,18 @@
 
 @media (max-width: 1279px) {
   .header {
-  padding: 0 48px 50px;
+    padding: 0 48px 50px;
   }
 }
 
 @media (max-width: 1023px) {
   .header {
-  padding: 0 24px 50px;
+    padding: 0 24px 50px;
   }
 }
 
 @media (max-width: 675px) {
   .header {
-  padding: 0 16px 50px;
+    padding: 0 16px 50px;
   }
 }
