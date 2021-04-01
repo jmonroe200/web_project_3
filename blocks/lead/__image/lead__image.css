@@ -1,7 +1,6 @@
 .lead__image {
   width: 100%;
-  min-height: 615px;
-  margin-top: 64px;
+  margin-top: 56 px;
   object-fit: cover;
 }
 

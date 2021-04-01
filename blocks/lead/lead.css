@@ -5,9 +5,9 @@
 
 .lead {
   padding: 0 148px 92px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 1279px) {
