@@ -9,7 +9,7 @@
   flex-direction: row;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 0 148px 58px;
+  padding: 0 100px 58px;
 }
 
 @media (max-width: 1279px) {
